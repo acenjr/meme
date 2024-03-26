@@ -118,7 +118,7 @@ function drawText(canvas) {
     ctx.fillStyle = "white";
     ctx.strokeStyle = "black";
     ctx.font = "80px Impact";
-    const maxWidth = canvas.width - 10 - y;
+    const maxWidth = canvas.width - 10 - X;
     ctx.fillText(text, x, y, maxWidth);
     ctx.strokeText(text, x, y, maxWidth);
   }
