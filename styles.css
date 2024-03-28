@@ -1,10 +1,10 @@
 body.grid {
-    width: 100%;
+    width: 100vw;
     overflow-y: scroll;
     margin: 0 auto;
     text-align: center;
     grid-template-areas: "header" "main" "nav" "footer";
-    grid-template-columns: 1fr;
+    grid-template-columns: max-content;
     grid-template-rows: max-content 2fr 1fr max-content
 }
 
