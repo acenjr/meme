@@ -1,0 +1,26 @@
+.app.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.app.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+header,
+nav,
+main,
+footer {
+  text-align: center;
+  padding: 1rem;
+}
+
+canvas {
+  border: 2px solid #000;
+  border-radius: 8px;
+}
+
+button {
+  margin: 0.5rem;
+}
